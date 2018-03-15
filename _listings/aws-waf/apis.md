@@ -22,8 +22,8 @@ tags:
 - Security
 - Firewall
 - Amazon Web Services
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-14"
+modified: "2018-03-14"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-waf/master/_listings/aws-waf/apis.yaml
 specificationVersion: "0.14"
 apis:
