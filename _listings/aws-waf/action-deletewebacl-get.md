@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteWebACL&k=1:
+  /?Action=DeleteWebACL:
     get:
       summary: ' Delete Web ACL'
       description: 'Service: AWS WAFPermanently deletes a'
