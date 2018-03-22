@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetXssMatchSet&k=1:
+  /?Action=GetXssMatchSet:
     get:
       summary: ' Get Xss Match Set '
       description: 'Service: AWS WAFReturns the'
