@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSampledRequests&k=1:
+  /?Action=GetSampledRequests:
     get:
       summary: ' Get Sampled Requests '
       description: 'Service: AWS WAFGets detailed information about a specified number
