@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListByteMatchSets&k=1:
+  /?Action=ListByteMatchSets:
     get:
       summary: ' List Byte Match Sets '
       description: 'Service: AWS WAFReturns an array of'
