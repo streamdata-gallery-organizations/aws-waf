@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateIPSet&k=1:
+  /?Action=UpdateIPSet:
     get:
       summary: ' Update IP Set '
       description: 'Service: AWS WAFInserts or deletes'
