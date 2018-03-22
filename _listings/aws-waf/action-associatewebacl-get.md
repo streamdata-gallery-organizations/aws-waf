@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateWebACL&k=1:
+  /?Action=AssociateWebACL:
     get:
       summary: ' Associate Web ACL '
       description: 'Service: AWS WAF RegionalAssociates a web ACL with a resource'
