@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteByteMatchSet&k=1:
+  /?Action=DeleteByteMatchSet:
     get:
       summary: ' Delete Byte Match Set '
       description: 'Service: AWS WAFPermanently deletes a'
