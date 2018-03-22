@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListIPSets&k=1:
+  /?Action=ListIPSets:
     get:
       summary: ' List IP Sets '
       description: 'Service: AWS WAFReturns an array of'
