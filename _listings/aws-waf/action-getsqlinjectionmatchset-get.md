@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSqlInjectionMatchSet&k=1:
+  /?Action=GetSqlInjectionMatchSet:
     get:
       summary: ' Get Sql Injection Match Set '
       description: 'Service: AWS WAFReturns the'
