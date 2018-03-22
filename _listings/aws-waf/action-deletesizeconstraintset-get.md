@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSizeConstraintSet&k=1:
+  /?Action=DeleteSizeConstraintSet:
     get:
       summary: ' Delete Size Constraint Set '
       description: 'Service: AWS WAFPermanently deletes a'
