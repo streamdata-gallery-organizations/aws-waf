@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetIPSet&k=1:
+  /?Action=GetIPSet:
     get:
       summary: ' Get IP Set '
       description: 'Service: AWS WAFReturns the'
