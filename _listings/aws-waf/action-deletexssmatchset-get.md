@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteXssMatchSet&k=1:
+  /?Action=DeleteXssMatchSet:
     get:
       summary: ' Delete Xss Match Set '
       description: 'Service: AWS WAFPermanently deletes an'
