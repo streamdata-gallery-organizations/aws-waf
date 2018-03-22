@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSizeConstraintSet&k=1:
+  /?Action=GetSizeConstraintSet:
     get:
       summary: ' Get Size Constraint Set '
       description: 'Service: AWS WAFReturns the'
