@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSizeConstraintSet&k=1:
+  /?Action=CreateSizeConstraintSet:
     get:
       summary: ' Create Size Constraint Set '
       description: 'Service: AWS WAFCreates a SizeConstraintSet'
