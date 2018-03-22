@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetChangeTokenStatus&k=1:
+  /?Action=GetChangeTokenStatus:
     get:
       summary: ' Get Change Token Status '
       description: 'Service: AWS WAFReturns the status of a ChangeToken that you got
