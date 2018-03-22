@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetChangeToken&k=1:
+  /?Action=GetChangeToken:
     get:
       summary: ' Get Change Token '
       description: 'Service: AWS WAFWhen you want to create, update, or delete AWS
