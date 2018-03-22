@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateXssMatchSet&k=1:
+  /?Action=UpdateXssMatchSet:
     get:
       summary: ' Update Xss Match Set '
       description: 'Service: AWS WAFInserts or deletes'
