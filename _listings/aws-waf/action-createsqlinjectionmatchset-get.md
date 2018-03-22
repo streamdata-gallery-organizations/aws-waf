@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSqlInjectionMatchSet&k=1:
+  /?Action=CreateSqlInjectionMatchSet:
     get:
       summary: ' Create Sql Injection Match Set '
       description: 'Service: AWS WAFCreates a'
