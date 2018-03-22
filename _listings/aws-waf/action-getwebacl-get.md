@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetWebACL&k=1:
+  /?Action=GetWebACL:
     get:
       summary: ' Get Web ACL'
       description: 'Service: AWS WAFReturns the'
