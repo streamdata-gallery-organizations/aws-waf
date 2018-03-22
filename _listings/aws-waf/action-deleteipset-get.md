@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteIPSet&k=1:
+  /?Action=DeleteIPSet:
     get:
       summary: ' Delete IP Set '
       description: 'Service: AWS WAFPermanently deletes an'
