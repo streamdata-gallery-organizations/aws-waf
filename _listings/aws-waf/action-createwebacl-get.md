@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateWebACL&k=1:
+  /?Action=CreateWebACL:
     get:
       summary: ' Create Web ACL'
       description: 'Service: AWS WAFCreates a WebACL, which contains the Rules that
