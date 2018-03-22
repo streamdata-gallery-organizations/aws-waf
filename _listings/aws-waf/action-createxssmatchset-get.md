@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateXssMatchSet&k=1:
+  /?Action=CreateXssMatchSet:
     get:
       summary: ' Create XSS Match Set '
       description: 'Service: AWS WAFCreates an'
