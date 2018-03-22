@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetWebACLForResource&k=1:
+  /?Action=GetWebACLForResource:
     get:
       summary: ' Get Web ACLFor Resource '
       description: 'Service: AWS WAF RegionalReturns the web ACL for the specified
