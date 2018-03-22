@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateByteMatchSet&k=1:
+  /?Action=CreateByteMatchSet:
     get:
       summary: ' Create Byte Match Set '
       description: 'Service: AWS WAFCreates a ByteMatchSet'
