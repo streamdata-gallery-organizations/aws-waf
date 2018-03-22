@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateSqlInjectionMatchSet&k=1:
+  /?Action=UpdateSqlInjectionMatchSet:
     get:
       summary: ' Update SQL Injection Match Set '
       description: 'Service: AWS WAFInserts or deletes'
