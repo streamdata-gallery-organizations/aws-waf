@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateIPSet&k=1:
+  /?Action=CreateIPSet:
     get:
       summary: ' Create IP Set '
       description: 'Service: AWS WAFCreates an'
