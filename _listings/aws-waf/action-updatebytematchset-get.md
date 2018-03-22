@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateByteMatchSet&k=1:
+  /?Action=UpdateByteMatchSet:
     get:
       summary: ' Update Byte Match Set '
       description: 'Service: AWS WAFInserts or deletes'
