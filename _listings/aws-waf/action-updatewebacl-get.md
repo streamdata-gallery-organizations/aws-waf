@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateWebACL&k=1:
+  /?Action=UpdateWebACL:
     get:
       summary: ' Update Web ACL'
       description: 'Service: AWS WAFInserts or deletes'
