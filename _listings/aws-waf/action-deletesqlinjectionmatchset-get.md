@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSqlInjectionMatchSet&k=1:
+  /?Action=DeleteSqlInjectionMatchSet:
     get:
       summary: ' Delete Sql Injection Match Set '
       description: 'Service: AWS WAFPermanently deletes a'
