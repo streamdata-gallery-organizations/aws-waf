@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateSizeConstraintSet&k=1:
+  /?Action=UpdateSizeConstraintSet:
     get:
       summary: ' Update Size Constraint Set '
       description: 'Service: AWS WAFInserts or deletes'
