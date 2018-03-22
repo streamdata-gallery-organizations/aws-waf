@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListWebACLs&k=1:
+  /?Action=ListWebACLs:
     get:
       summary: ' List Web ACLs'
       description: 'Service: AWS WAFReturns an array of'
