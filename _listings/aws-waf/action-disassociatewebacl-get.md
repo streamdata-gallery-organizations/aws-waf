@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisassociateWebACL&k=1:
+  /?Action=DisassociateWebACL:
     get:
       summary: ' Disassociate Web ACL'
       description: 'Service: AWS WAF RegionalRemoves a web ACL from the specified
