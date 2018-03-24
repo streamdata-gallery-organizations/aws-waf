@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-waf.api.streamdata.gallery
+title: Streamdata Gallery AWS WAF
+url: aws-waf.streamdata.gallery
 tag: AWS WAF
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-waf
 github_branch: master
 collections:
