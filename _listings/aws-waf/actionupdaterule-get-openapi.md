@@ -154,9 +154,9 @@ paths:
         type: string
       - in: query
         name: DefaultAction
-        description: "The action that you want  AWS WAF to take when a request doesnt
-          match the criteria specified in any of the Rule \t\t\tobjects that are associated
-          with the WebACL"
+        description: The action that you want  AWS WAF to take when a request doesnt
+          match the criteria specified in any of the Rule objects that are associated
+          with the WebACL
         type: string
       - in: query
         name: MetricName
@@ -447,9 +447,9 @@ paths:
       parameters:
       - in: query
         name: MaxItems
-        description: "The number of requests that you want AWS WAF to return from
-          among the first 5,000 requests that your AWS resource received\t\t\tduring
-          the time range"
+        description: The number of requests that you want AWS WAF to return from among
+          the first 5,000 requests that your AWS resource receivedduring the time
+          range
         type: string
       - in: query
         name: RuleId
@@ -457,8 +457,8 @@ paths:
         type: string
       - in: query
         name: TimeWindow
-        description: "The start date and time and the end date and time of the range
-          for which you want GetSampledRequests to return a \t\t    \tsample of requests"
+        description: The start date and time and the end date and time of the range
+          for which you want GetSampledRequests to return a     sample of requests
         type: string
       - in: query
         name: WebAclId
@@ -568,9 +568,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more ByteMatchSets
-          than the value of Limit, \t\t\tAWS WAF returns a NextMarker value in the
-          response that allows you to list another group of ByteMatchSets"
+        description: If you specify a value for Limit and you have more ByteMatchSets
+          than the value of Limit, AWS WAF returns a NextMarker value in the response
+          that allows you to list another group of ByteMatchSets
         type: string
       responses:
         200:
@@ -591,9 +591,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more IPSets than
-          the value of Limit, \t\t\tAWS WAF returns a NextMarker value in the response
-          that allows you to list another group of IPSets"
+        description: If you specify a value for Limit and you have more IPSets than
+          the value of Limit, AWS WAF returns a NextMarker value in the response that
+          allows you to list another group of IPSets
         type: string
       responses:
         200:
@@ -632,9 +632,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more Rules than
-          the value of Limit, \t\t\tAWS WAF returns a NextMarker value in the response
-          that allows you to list another group of Rules"
+        description: If you specify a value for Limit and you have more Rules than
+          the value of Limit, AWS WAF returns a NextMarker value in the response that
+          allows you to list another group of Rules
         type: string
       responses:
         200:
@@ -655,9 +655,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more SizeConstraintSets
-          than the value of Limit, \t\t\tAWS WAF returns a NextMarker value in the
-          response that allows you to list another group of SizeConstraintSets"
+        description: If you specify a value for Limit and you have more SizeConstraintSets
+          than the value of Limit, AWS WAF returns a NextMarker value in the response
+          that allows you to list another group of SizeConstraintSets
         type: string
       responses:
         200:
@@ -678,9 +678,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more SqlInjectionMatchSet
-          objects than the value of \t\t\tLimit, AWS WAF returns a NextMarker value
-          in the response that allows you to list another group of \t\t\tSqlInjectionMatchSets"
+        description: If you specify a value for Limit and you have more SqlInjectionMatchSet
+          objects than the value of Limit, AWS WAF returns a NextMarker value in the
+          response that allows you to list another group of SqlInjectionMatchSets
         type: string
       responses:
         200:
@@ -701,10 +701,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more WebACL objects
-          than the number that you specify \t\t\tfor Limit, AWS WAF returns a NextMarker
-          value in the response that allows you to list another group of \t\t\tWebACL
-          objects"
+        description: If you specify a value for Limit and you have more WebACL objects
+          than the number that you specify for Limit, AWS WAF returns a NextMarker
+          value in the response that allows you to list another group of WebACL objects
         type: string
       responses:
         200:
@@ -725,9 +724,9 @@ paths:
         type: string
       - in: query
         name: NextMarker
-        description: "If you specify a value for Limit and you have more XssMatchSet
-          objects than the value of \t\t\tLimit, AWS WAF returns a NextMarker value
-          in the response that allows you to list another group of \t\t\tXssMatchSets"
+        description: If you specify a value for Limit and you have more XssMatchSet
+          objects than the value of Limit, AWS WAF returns a NextMarker value in the
+          response that allows you to list another group of XssMatchSets
         type: string
       responses:
         200:
@@ -801,8 +800,8 @@ paths:
         type: string
       - in: query
         name: Updates
-        description: "An array of RuleUpdate objects that you want to insert into
-          or delete from a \t\t\tRule"
+        description: An array of RuleUpdate objects that you want to insert into or
+          delete from a Rule
         type: string
       responses:
         200:

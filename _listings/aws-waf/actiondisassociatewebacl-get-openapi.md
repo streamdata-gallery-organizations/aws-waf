@@ -154,9 +154,9 @@ paths:
         type: string
       - in: query
         name: DefaultAction
-        description: "The action that you want  AWS WAF to take when a request doesnt
-          match the criteria specified in any of the Rule \t\t\tobjects that are associated
-          with the WebACL"
+        description: The action that you want  AWS WAF to take when a request doesnt
+          match the criteria specified in any of the Rule objects that are associated
+          with the WebACL
         type: string
       - in: query
         name: MetricName
