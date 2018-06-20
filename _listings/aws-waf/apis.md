@@ -17,10 +17,10 @@ description: AWS WAF is a web application firewall that helps protect your webap
   or origin servers running on EC2.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS WAF
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-waf/master/_listings/aws-waf/apis.md
 specificationVersion: "0.14"
 apis:
